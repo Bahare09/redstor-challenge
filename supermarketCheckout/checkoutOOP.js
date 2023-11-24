@@ -5,7 +5,13 @@ class Checkout {
   }
 
   scan(item) {
-    this.scannedItems.push(item);
+    if (this.pricingRules[item]) {
+      this.scannedItems.push(item);
+    } else {
+      console.log(
+        "The item '" + item + "' does not have pricing rules defined."
+      );
+    }
   }
 
   calculateTotal() {
@@ -48,7 +54,7 @@ const pricingRules1 = {
 const checkout1 = new Checkout(pricingRules1);
 
 // Scanning items
-checkout1.scan("B");
+checkout1.scan("G");
 checkout1.scan("C");
 checkout1.scan("B");
 checkout1.scan("B");
