@@ -1,0 +1,15 @@
+{
+  "name": "supermarketcheckout",
+  "version": "1.0.0",
+  "description": "This program simulates a supermarket checkout system that calculates the total price of a list of items. It supports individual pricing and special offers.",
+  "main": "checkoutOOP.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
