@@ -1,4 +1,4 @@
-# redstor-challenge
+# Redstor-challenge
 
 This program simulates a supermarket checkout system that calculates the total price of a list of items. It supports individual pricing and special offers.
 
@@ -6,15 +6,25 @@ This program simulates a supermarket checkout system that calculates the total p
 
 Clone the repository: https://github.com/Bahare09/redstor-challenge
 
+## How to Install Dependencies:
+
+1-Navigate to the project directory > cd redstor-challenge/supermarketCheckout
+
+2-npm install
+
 # How to Run :
 
 In terminal
 
-1-Navigate to redstor-challenge directory > cd redstor-challenge
+1-Navigate to the project directory > cd redstor-challenge/supermarketCheckout
 
-2-Navigate to the project directory > cd supermarketCheckout
+2-Execute the main script using Node.js > node checkoutOOP.js
 
-3-Execute the main script using Node.js > node checkoutOOP.js
+# How to Run the test:
+
+1-Navigate to the project directory > cd redstor-challenge/supermarketCheckout
+
+2-npm test
 
 # Challenge Summery:
 
