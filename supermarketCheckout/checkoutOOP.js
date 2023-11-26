@@ -33,7 +33,6 @@ class Checkout {
 
     return total;
   }
-
   getCounts(items) {
     return items.reduce((acc, item) => {
       acc[item] = (acc[item] || 0) + 1;
@@ -62,3 +61,4 @@ checkout1.scan("B");
 // Calculating total
 const totalPrice1 = checkout1.calculateTotal();
 console.log("Total Price:", totalPrice1);
+module.exports = Checkout;
